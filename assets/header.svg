@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Mayank Kejariwal, backend engineer, final year at MIT Manipal, building KORUM at Worldhire">
+  <title>Mayank Kejariwal</title>
+
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset=".55" stop-color="#a371f7"/>
+      <stop offset="1" stop-color="#f778ba"/>
+    </linearGradient>
+
+    <clipPath id="card"><rect width="1000" height="230" rx="14"/></clipPath>
+
+    <!-- Base width is the full line, so the text is readable even where SMIL does not run.
+         Each animation starts at 0s and holds at width 0 for its stagger, so there is no flash. -->
+    <clipPath id="t1"><rect x="40" y="58" width="380" height="28">
+      <animate attributeName="width" values="0;0;380" keyTimes="0;.313;1" dur=".8s" begin="0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t2"><rect x="40" y="88" width="220" height="28">
+      <animate attributeName="width" values="0;0;220" keyTimes="0;.75;1" dur="1.2s" begin="0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t3"><rect x="40" y="118" width="300" height="28">
+      <animate attributeName="width" values="0;0;300" keyTimes="0;.765;1" dur="1.7s" begin="0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t4"><rect x="40" y="148" width="600" height="28">
+      <animate attributeName="width" values="0;0;600" keyTimes="0;.7;1" dur="2.5s" begin="0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t5"><rect x="40" y="178" width="470" height="28">
+      <animate attributeName="width" values="0;0;470" keyTimes="0;.81;1" dur="3.15s" begin="0s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="230" fill="#0d1117"/>
+    <rect width="1000" height="3" fill="url(#accent)"/>
+
+    <text x="962" y="196" text-anchor="end"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="160" font-weight="700"
+          fill="none" stroke="url(#accent)" stroke-width="2" opacity=".3">404</text>
+
+    <circle cx="46" cy="32" r="6" fill="#ff5f56"/>
+    <circle cx="68" cy="32" r="6" fill="#ffbd2e"/>
+    <circle cx="90" cy="32" r="6" fill="#27c93f"/>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
+      <text x="46" y="78" clip-path="url(#t1)" fill="#c9d1d9"><tspan fill="#7ee787">$ </tspan>curl -sI github.com/MayDev-404</text>
+      <text x="46" y="108" clip-path="url(#t2)" fill="#3fb950" font-weight="700">HTTP/1.1 200 OK</text>
+      <text x="46" y="138" clip-path="url(#t3)" fill="#c9d1d9"><tspan fill="#79c0ff">x-name: </tspan>Mayank Kejariwal</text>
+      <text x="46" y="168" clip-path="url(#t4)" fill="#c9d1d9"><tspan fill="#79c0ff">x-role: </tspan>backend engineer, final year @ MIT Manipal</text>
+      <text x="46" y="198" clip-path="url(#t5)" fill="#c9d1d9"><tspan fill="#79c0ff">x-now: </tspan>KORUM @ Worldhire, ex-Microsoft<tspan fill="#58a6ff" font-weight="700" opacity="0">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.06s" begin="3.2s" repeatCount="indefinite"/></tspan></text>
+    </g>
+  </g>
+</svg>
