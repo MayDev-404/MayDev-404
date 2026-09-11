@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Mayank Kejariwal, backend engineer, final year at MIT Manipal, building KORUM at Worldhire">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Mayank Kejariwal, software engineer, final year at MIT Manipal, building KORUM at Worldhire">
   <title>Mayank Kejariwal</title>
 
   <defs>
@@ -41,7 +41,7 @@
       <text x="46" y="78" clip-path="url(#t1)" fill="#c9d1d9"><tspan fill="#7ee787">$ </tspan>curl -sI github.com/MayDev-404</text>
       <text x="46" y="108" clip-path="url(#t2)" fill="#3fb950" font-weight="700">HTTP/1.1 200 OK</text>
       <text x="46" y="138" clip-path="url(#t3)" fill="#c9d1d9"><tspan fill="#79c0ff">x-name: </tspan>Mayank Kejariwal</text>
-      <text x="46" y="168" clip-path="url(#t4)" fill="#c9d1d9"><tspan fill="#79c0ff">x-role: </tspan>backend engineer, final year @ MIT Manipal</text>
+      <text x="46" y="168" clip-path="url(#t4)" fill="#c9d1d9"><tspan fill="#79c0ff">x-role: </tspan>software engineer, final year @ MIT Manipal</text>
       <text x="46" y="198" clip-path="url(#t5)" fill="#c9d1d9"><tspan fill="#79c0ff">x-now: </tspan>KORUM @ Worldhire, ex-Microsoft<tspan fill="#58a6ff" font-weight="700" opacity="0">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.06s" begin="3.2s" repeatCount="indefinite"/></tspan></text>
     </g>
   </g>

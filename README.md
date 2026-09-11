@@ -1,6 +1,6 @@
-<img src="assets/header.svg" width="100%" alt="Mayank Kejariwal, backend engineer">
+<img src="assets/header.svg" width="100%" alt="Mayank Kejariwal, software engineer">
 
-Hey, I'm Mayank. Final year CCE at MIT Manipal. I mostly write backends.
+Hey, I'm Mayank. Final year CCE at MIT Manipal.
 
 **Now:** building **KORUM** at Worldhire, a hiring platform for senior talent. APIs, Postgres, and the unglamorous parts that have to not fall over.
 
